@@ -1,13 +1,13 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
-import WeatherSearch from "./WeatherSearch";
+import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h1>Weather Search Engine</h1>
-        <WeatherSearch />
+        <Weather />
       </header>
     </div>
   );

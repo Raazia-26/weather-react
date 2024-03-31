@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-export default function WeatherSearch() {
+export default function Weather() {
   const [city, setCity] = useState("");
   const [msg, setMsg] = useState({});
   const [loaded, setLoaded] = useState(false);
