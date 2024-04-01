@@ -50,9 +50,33 @@ export default function Weather() {
             <img src={msg.icon} alt={msg.description} />
           </li>
         </ul>
+        <p>
+          This code is open sourced on{" "}
+          <a
+            href="https://github.com/Raazia-26/weather-react"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+        </p>
       </div>
     );
   } else {
-    return form;
+    return (
+      <div>
+        {form}
+        <p>
+          This code is open sourced on{" "}
+          <a
+            href="https://github.com/Raazia-26/weather-react"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+        </p>{" "}
+      </div>
+    );
   }
 }
